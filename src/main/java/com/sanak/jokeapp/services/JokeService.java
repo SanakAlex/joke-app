@@ -1,4 +1,4 @@
-package com.sanak.services;
+package com.sanak.jokeapp.services;
 
 public interface JokeService {
 

@@ -1,4 +1,4 @@
-package com.sanak.services;
+package com.sanak.jokeapp.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package com.sanak.controllers;
+package com.sanak.jokeapp.controllers;
 
-import com.sanak.services.JokeService;
+import com.sanak.jokeapp.services.JokeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +16,7 @@ public class JokeController {
     this.jokeService = jokeService;
   }
 
-  @RequestMapping({"/", ""})
+  @RequestMapping(path = {"/", ""})
   public String showJoke(Model model) {
 
     model.addAttribute("joke", jokeService.getJoke());
